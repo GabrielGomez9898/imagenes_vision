@@ -1,0 +1,7 @@
+path: /Users/gabrielgomezcorredor/Desktop/Gabriel_Gomez/Maestria MISIS/Imagenes y Vision/imagenes_vision/Machine_Deep_Learning/taller_10/data/Multi-Class Animal Detection.v1-yolov8
+train: train/images
+val:   valid/images
+test:  test/images
+
+nc: 20
+names: ['Buffalo', 'Camel', 'Cat', 'Cheetah', 'Cow', 'Deer', 'Dog', 'Elephant', 'Goat', 'Gorilla', 'Hippo', 'Horse', 'Lion', 'Monkey', 'Panda', 'Rat', 'Rhino', 'Tiger', 'Wolf', 'Zebra']

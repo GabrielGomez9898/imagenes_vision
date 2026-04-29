@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 20
+names: ['Buffalo', 'Camel', 'Cat', 'Cheetah', 'Cow', 'Deer', 'Dog', 'Elephant', 'Goat', 'Gorilla', 'Hippo', 'Horse', 'Lion', 'Monkeys', 'Panda', 'Rat', 'Rhino', 'Tiger', 'Wolf', 'Zebra']
+
+roboflow:
+  workspace: animalimagedetection
+  project: multi-class-animal-detection
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/animalimagedetection/multi-class-animal-detection/dataset/1
